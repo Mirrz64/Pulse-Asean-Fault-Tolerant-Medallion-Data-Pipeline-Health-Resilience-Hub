@@ -108,7 +108,7 @@ def run_pipeline():
     # Primary Master Export
     master.to_csv('asean_health_master.csv', index=False)
     
-    print("\n✅ TRACK C PIPELINE COMPLETE!")
+    print("\n✅ PIPELINE COMPLETE!")
     print(f"   • Primary Master: asean_health_master.csv ({len(master)} rows)")
     print(f"   • Fact Table:     {warehouse_dir}/fact_health_metrics.csv")
     print(f"   • Dim Country:    {warehouse_dir}/dim_countries.csv")
