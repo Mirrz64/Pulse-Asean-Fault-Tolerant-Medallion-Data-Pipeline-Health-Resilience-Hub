@@ -91,7 +91,7 @@ def run_pipeline():
     master = interpolate_country_gaps(master)
 
     # TIER 3: GOLD LAYER - Derived Features & Star Schema Warehouse Generation
-    print("💡 Computing derived vulnerability metrics...")
+    print("💡 Computing derived vulnerability metrics...") 
     master = add_derived_features(master)
 
     print("🏛️ Generating Star Schema Data Mart...")
